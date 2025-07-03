@@ -1,7 +1,8 @@
 #!/bin/bash
 
 sudo apt update
-sudo apt install neovim
+sudo snap install nvim --classic
+
 sudo apt install -y tmux xclip
 sudo snap install alacritty --classic
 
